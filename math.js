@@ -113,4 +113,46 @@ var obj = [
 console.log(objsort(obj));
 */
 
-//
+/* Adding shopping cart cost */
+
+/* function addObj(obj) {
+  sum = 0;
+  for (const item of obj) {
+    sum = item.price * item.quantity + sum;
+  }
+  return sum;
+}
+
+var obj = [
+  { phone: 'Samsu', price: 2000, quantity: 2 },
+  { phone: 'Walton', price: 1000, quantity: 3 },
+  { phone: 'Xiaomi', price: 4000, quantity: 12 },
+  { phone: 'Oppo', price: 2060, quantity: 1 },
+  { phone: 'vivo', price: 2005, quantity: 2 },
+  { phone: 'Oneplus', price: 500, quantity: 2 },
+];
+
+console.log(addObj(obj));
+*/
+
+/* Jungle */
+
+function animal(area, anperMile) {
+  let leftarea = area % 10;
+  let roundarea = area - leftarea;
+  let sum = 0;
+  let j = 0;
+  for (let i = 0; i < area; i += 10, j++) {
+    if (roundarea == 0) {
+      sum = sum + leftarea * anperMile[j];
+    } else {
+      sum = sum + 10 * anperMile[j];
+      roundarea -= 10;
+    }
+  }
+  return sum;
+}
+
+var travel = 38;
+var animalPerMile = [10, 20, 30, 40, 50];
+console.log(animal(travel, animalPerMile));
