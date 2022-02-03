@@ -89,4 +89,28 @@ let str = 'hola amigoes';
 console.log(rev(str));
 */
 
+/* Object sort */
 
+/* function objsort(obj) {
+  let cheap = obj[0];
+  for (const prime of obj) {
+    if (cheap.price > prime.price) {
+      cheap = prime;
+    }
+  }
+  return cheap;
+}
+
+var obj = [
+  { phone: 'Samsu', price: 2000 },
+  { phone: 'Walton', price: 1000 },
+  { phone: 'Xiaomi', price: 4000 },
+  { phone: 'Oppo', price: 2060 },
+  { phone: 'vivo', price: 2005 },
+  { phone: 'Oneplus', price: 500 },
+];
+
+console.log(objsort(obj));
+*/
+
+//
