@@ -137,7 +137,7 @@ console.log(addObj(obj));
 
 /* Jungle */
 
-function animal(area, anperMile) {
+/* function animal(area, anperMile) {
   let leftarea = area % 10;
   let roundarea = area - leftarea;
   let sum = 0;
@@ -156,3 +156,4 @@ function animal(area, anperMile) {
 var travel = 38;
 var animalPerMile = [10, 20, 30, 40, 50];
 console.log(animal(travel, animalPerMile));
+*/
